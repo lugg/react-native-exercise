@@ -24,10 +24,10 @@ class App extends Component {
         </View>
         <View style={styles.body}>
           { /* YOUR COMPONENT HERE */ }
-          <Text>{" Your Component Here"}</Text>
+          <Text>{"Your Component Here"}</Text>
         </View>
         <View style={styles.footer}>
-          <Button style={styles.button} labelStyle={styles.buttonLabel}>{"Schedule"}</Button>
+          <Button style={styles.button} labelStyle={styles.buttonLabel}>{"Next"}</Button>
         </View>
       </View>
     );
