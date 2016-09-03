@@ -20,7 +20,7 @@ Below is a screenshot of how the component should function. If you need any clar
 
 ### Setup
 ```shell
-$ git clone git@github.com:luggit/ruby-exercise.git
+$ git clone git@github.com:luggit/react-native-exercise.git
 $ cd react-native-exercise
 $ npm install
 $ react-native run-ios
