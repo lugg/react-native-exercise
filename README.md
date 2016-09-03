@@ -1,5 +1,5 @@
 # React Native Exercise
----
+
 This is a vanilla React Native Application containing a single screen with a placeholder view that will be replaced with a custom component.
 
 ### What You'll Be Building
