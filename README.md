@@ -4,7 +4,7 @@ This is a vanilla React Native Application containing a single screen with a pla
 
 ### What You'll Be Building
 
-Lugg customers want the ability to schedule a Lugg in advance. In order to accomplish this we have designed a time picker allowing the customer to select the day and time window that they would like their movers to arrive. A customer can schedule a Lugg no more than 30 days in advance. You do not need not to build the entire screen just the time picker component in the highlighted area in the right image.
+Lugg customers want the ability to schedule a Lugg in advance. In order to accomplish this we have designed a time picker allowing the customer to select the day and time window for when they would like their movers to arrive. A customer can schedule a Lugg no more than 30 days in advance. You do not need not to build the entire screen just the time picker component in the highlighted area in the right image.
 
 ![image](https://cloud.githubusercontent.com/assets/59875/18215276/4bcc5f52-7105-11e6-8cfe-ce631eaab9fb.png)
 
