@@ -13,7 +13,7 @@ Lugg customers want the ability to schedule a Lugg in advance. In order to accom
 Below is a screenshot of how the component should function. If you need any clarification please ask :)
 
 - Both days and time windows should be scrollable.
-- As you scroll the days the time windows below should scroll to that corresponding day in sync and vice versa when paging the time windows.
+- As you scroll the days, the time windows below should scroll to that corresponding day in sync and vice versa when paging the time windows.
 - You can implement this custom component on the platform of your choosing (iOS or Android). If you are feeling ambitious please feel free to try both.
 
 ![lugg-time-picker](https://cloud.githubusercontent.com/assets/59875/18221695/e69c7a5e-7136-11e6-89e9-56e6ba3acc17.gif)
