@@ -1,70 +1,80 @@
-import React, { PropTypes, Component } from 'react';
-import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import * as React from "react";
+import {
+  View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  SafeAreaView,
+  StatusBar
+} from "react-native";
 
-import { Color, Font } from './constants';
+import { Color, Font } from "./constants";
 
-const Button = ({ onPress, style, labelStyle, children, ...props }) => {
+const Button = ({ onPress, children, ...props }) => {
   return (
-    <TouchableOpacity onPress={onPress} activeOpacity={0.9}>
-      <View style={style}>
-        <Text style={labelStyle}>
-          {children}
-        </Text>
-      </View>
+    <TouchableOpacity onPress={onPress} activeOpacity={0.9} {...props}>
+      <SafeAreaView style={Styles.ButtonRoot}>
+        <View style={Styles.ButtonInner}>
+          <Text style={Styles.ButtonLabel}>{children}</Text>
+        </View>
+      </SafeAreaView>
     </TouchableOpacity>
   );
-}
+};
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <View style={styles.header}>
-          <Text style={styles.headerText}>{"Welcome to the React Native Lugg Exercise!"}</Text>
+      <View style={Styles.Container}>
+        <StatusBar barStyle="light-content" />
+        <View style={Styles.Header}>
+          <Text style={Styles.HeaderText}>
+            Welcome to the React Native Lugg Exercise!
+          </Text>
         </View>
-        <View style={styles.body}>
-          { /* YOUR COMPONENT HERE */ }
+        <View style={Styles.Body}>
           <Text>Your Component Here</Text>
         </View>
-        <View style={styles.footer}>
-          <Button style={styles.button} labelStyle={styles.buttonLabel}>{"Next"}</Button>
+        <View style={Styles.Footer}>
+          <Button style={Styles.Button}>Next</Button>
         </View>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
+const Styles = StyleSheet.create({
+  Container: {
     flex: 1,
     backgroundColor: Color.primary
   },
-  header: {
+  Header: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
+    alignItems: "center",
+    justifyContent: "center"
   },
-  footer: {
-  },
-  body: {
+  Footer: {},
+  Body: {
     height: 248,
-    backgroundColor: 'red',
-    alignItems: 'center',
-    justifyContent: 'center'
+    backgroundColor: "red",
+    alignItems: "center",
+    justifyContent: "center"
   },
-  headerText: {
+  HeaderText: {
     ...Font.regular,
-    color: '#fff',
-    textAlign: 'center',
+    color: "#fff",
+    textAlign: "center",
     maxWidth: 320
   },
-  button: {
-    height: 56,
-    alignItems: 'center',
-    justifyContent: 'center',
+  ButtonRoot: {
     backgroundColor: Color.action
   },
-  buttonLabel: {
+  ButtonInner: {
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  ButtonLabel: {
     ...Font.medium,
     color: Color.primary,
     fontSize: 18
