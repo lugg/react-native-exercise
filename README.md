@@ -2,6 +2,8 @@
 
 This is a vanilla React Native Application containing a single screen with a placeholder view that will be replaced with a custom component.
 
+__IMPORTANT__ - Please do not add any UI libraries to complete this exercise - no carousel libraries, no swipeable row libriaries, etc. If you'd like to import libraries like `moment` for dates or `lodash` to make working with arrays and objects easier feel free :) 
+
 ### What You'll Be Building
 
 Lugg customers want the ability to schedule a Lugg in advance. In order to accomplish this we have designed a time picker allowing the customer to select the day and time window for when they would like their movers to arrive. A customer can schedule a Lugg no more than 30 days in advance. You do not need to build the entire screen just the time picker component in the highlighted area in the right image.
