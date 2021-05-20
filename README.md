@@ -10,6 +10,10 @@ Lugg customers want the ability to schedule a Lugg in advance. In order to accom
 
 ![image](https://cloud.githubusercontent.com/assets/59875/18215276/4bcc5f52-7105-11e6-8cfe-ce631eaab9fb.png)
 
+
+https://user-images.githubusercontent.com/59875/119058075-e398cf00-b98a-11eb-83ac-3f5209486e36.mp4
+
+
 #### Notes on UX
 
 Below is a screenshot of how the component should function. If you need any clarification please ask :)
