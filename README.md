@@ -26,6 +26,8 @@ Below is a screenshot of how the component should function. If you need any clar
 $ git clone git@github.com:luggit/react-native-exercise.git
 $ cd react-native-exercise
 $ yarn install
+$ cd ios && pod install
+$ cd ..
 $ npx react-native run-ios
 ```
 
