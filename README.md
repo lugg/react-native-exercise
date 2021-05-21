@@ -2,7 +2,8 @@
 
 This is a vanilla React Native Application containing a single screen with a placeholder view that will be replaced with a custom component.
 
-**IMPORTANT** - Please do not add any UI libraries to complete this exercise - no carousel libraries, no swipeable row libriaries, etc. If you'd like to import libraries like `moment` for dates or `lodash` to make working with arrays and objects easier feel free :)
+## !!!IMPORTANT!!!
+Please do not add any UI libraries to complete this exercise - no carousel libraries, no swipeable row libriaries, etc. If you'd like to import libraries like `moment` for dates or `lodash` to make working with arrays and objects easier feel free :)
 
 ### What You'll Be Building
 
